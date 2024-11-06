@@ -13,3 +13,7 @@ The d attribute in each <path> element defines the drawing instructions for that
 Path Conversion: Each SVG path (d attribute) is parsed and converted into a Jetpack Compose Path format, making it compatible with Compose's drawing system.
 
 Bounding Box Hit Detection: While the sample includes interaction with each state, determining if a click is within a state uses rectangular bounding boxes around each path. This is a simplified hit-test approach. While it’s not pixel-perfect, it serves educational purposes to demonstrate state-specific interactions and color changes.
+
+## License
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+
